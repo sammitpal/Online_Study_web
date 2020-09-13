@@ -1,0 +1,72 @@
+#navbar{
+    flex-direction: column;
+}
+
+
+#easy{
+    flex-direction: column;
+}
+#home{
+    height: 350px;
+    padding: 5px 70px;
+}
+
+#home::before{
+    height: 444px;
+}
+#home p{
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.h1-primary{
+    font-size: 3.0rem;
+    padding: 5px;
+}
+
+#navbar ul li a {
+    font-size: 1.0rem;
+    padding: 5px;
+    margin: 12px;
+}
+.navbar-list{
+    padding-bottom: 5px;
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+#easy .box{
+    height: auto;
+}
+#easy .box p{
+    font-size: 1.0rem;
+}
+.easy-learn h1{
+    font-size: 2.0rem;
+}
+.foot p{
+    font-size: 0.8rem;
+}
+.foot h3{
+    
+    font-size: 0.9rem;
+}
+
+.fimg img{
+    margin: 5px;
+    width: 15px;
+}
+#contact-box form{
+    width: 80%;
+}
+#contact h1{
+    font-size: 1.5rem;
+}
+
+
+#start-box{
+    height: auto;
+}
+#start-easy{
+    flex-direction: column;
+}

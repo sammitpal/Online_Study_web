@@ -1,0 +1,48 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+
+#navbar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 20px;
+}
+#nav-list{
+    float: right;
+}
+
+.foot{
+    background-color: #343f51;
+    padding: 20px;
+}
+.foot p{
+    text-align: center;
+    font-size: 1.0rem;
+    color: #ffffff;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.foot h3{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 10px;
+    font-weight: bold;
+}
+.fimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fimg img{
+    margin: 10px;
+}

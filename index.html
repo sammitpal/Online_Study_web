@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Online</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&family=Roboto+Slab&family=Special+Elite&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" media="screen and (max-width: 992px)" href="phone.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="study.png" alt="logo">
+        </div>
+        <div id="nav-list">
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#getstarted">Course</a></li>
+                <li class="item"><a href="#">About</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1 class="h1-primary">Study Online</h1>
+        <p> The Future of Learning</p>
+    </section>
+
+    <section class="easy-learn">
+        <h1 class="h1-primary center">Learning is Easy</h1>
+        <div id="easy">
+            <div class="box">
+                <img src="https://img.icons8.com/dotty/50/000000/reading-ebook.png">
+                <h2 class="h-secondary center">Learn From Home</h2>
+                <p class="center">Study Online gives you the oppurtunity to learn new things online. Create your Account
+                    and start now</p>
+            </div>
+
+            <div class="box">
+                <img src="https://img.icons8.com/wired/50/000000/exam.png">
+                <h2 class="h-secondary center">Prepare For Examinations</h2>
+                <p class="center">Students can prepare for differnt types of examinations by choosing their free
+                    required course online.</p>
+            </div>
+
+            <div class="box">
+                <img src="https://img.icons8.com/ios/50/000000/easy.png">
+                <h2 class="h-secondary center">Easy to Access</h2>
+                <p class="center">Students can access their required free course for our website. Also can also download
+                    for future use.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="start" id="getstarted">
+        <h1 class="h1-primary center">Get Started</h1>
+        <div id="start-easy">
+            <div id="start-box">
+                <h2 id="head">LOGIN</h2>
+
+
+                <input type="email" id="email" placeholder="name@example.com">
+
+
+                <input type="password" id="password" placeholder="password">
+
+
+                <input type="submit" value="Login" onclick="login()" id="login">
+
+                <input type="submit" value="Logout" onclick="logout()" id="logout">
+
+                <input type="submit" value="Create" onclick="create()" id="create">
+
+                <p id="user"></p>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h1-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label class="label" for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label class="label" for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label class="label" for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <div>
+            <h3> Connect Us With </h3>
+        </div>
+        <div class="fimg">
+            <img src="https://img.icons8.com/material-sharp/32/ffffff/facebook-new.png" />
+            <img src="https://img.icons8.com/windows/32/ffffff/instagram-new.png" />
+            <img src="https://img.icons8.com/windows/32/ffffff/whatsapp.png" />
+            <img src="https://img.icons8.com/material-sharp/32/ffffff/github.png" />
+            <img src="https://img.icons8.com/ios-filled/32/ffffff/linkedin.png" />
+        </div>
+        <div>
+            <p>Copyright &copy; StudyOnline</p>
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var firebaseConfig = {
+            apiKey: "AIzaSyDzKJWD4HaoSuXNJdzAQrBzjsLPBoIPdPQ",
+            authDomain: "studyonline-c6761.firebaseapp.com",
+            databaseURL: "https://studyonline-c6761.firebaseio.com",
+            projectId: "studyonline-c6761",
+            storageBucket: "studyonline-c6761.appspot.com",
+            messagingSenderId: "122704475822",
+            appId: "1:122704475822:web:7021c9c8310d74e3451f3f"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
